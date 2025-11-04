@@ -1,24 +1,115 @@
-# Compiled class file
-*.class
+# https://www.toptal.com/developers/gitignore/api/eclipse,java,maven에서 생성됨
+# https://www.toptal.com/developers/gitignore?templates=eclipse,java,maven에서 편집하세요
 
-# Log file
-*.log
+### 일식 ###
+.메타데이터
+큰 상자/
+임시/
+*.tmp
+*.bak
+*.swp
+*~.닙
+로컬 속성
+.설정/
+.로드패스
+.추천인
 
-# BlueJ files
+# 외부 도구 빌더
+.외부도구빌더/
+
+# 로컬에 저장된 "Eclipse 실행 구성"
+*.시작하다
+
+# PyDev 전용(Eclipse용 Python IDE)
+*.pydev프로젝트
+
+# CDT 전용(C/C++ 개발 도구)
+.c프로젝트
+
+# CDT- 오토툴스
+.자동도구
+
+# Java 주석 프로세서(APT)
+.팩토리 경로
+
+# PDT 전용(PHP 개발 도구)
+.빌드패스
+
+# sbteclipse 플러그인
+.목표
+
+# Tern 플러그인
+.tern-프로젝트
+
+# TeXlipse 플러그인
+.텍스립스
+
+# STS(스프링 툴 스위트)
+.스프링빈즈
+
+# 코드 추천자
+.추천인/
+
+# 주석 처리
+.apt_generated/
+.apt_generated_test/
+
+# Scala IDE 전용(Eclipse용 Scala 및 Java 개발)
+.캐시-메인
+.scala_dependencies
+.워크시트
+
+# 프로젝트 설명 파일을 무시하려면 이 줄의 주석 처리를 제거하세요.
+# 일반적으로 이 파일은 빌드/종속성 구성을 포함하는 경우 추적됩니다.
+#.프로젝트
+
+### 이클립스 패치 ###
+# 스프링 부트 툴링
+.sts4-캐시/
+
+### 자바 ###
+# 컴파일된 클래스 파일
+*.수업
+
+# 로그 파일
+*.통나무
+
+# BlueJ 파일
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Java용 모바일 도구(J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
+# 패키지 파일 #
+*.항아리
+*.전쟁
 *.nar
-*.ear
-*.zip
+*.귀
+*.지퍼
 *.tar.gz
-*.rar
+*.라르
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# 가상 머신 충돌 로그는 http://www.java.com/en/download/help/error_hotspot.xml을 참조하세요.
 hs_err_pid*
-replay_pid*
+리플레이_피드*
+
+### 메이븐 ###
+목표/
+pom.xml.태그
+pom.xml.releaseBackup
+pom.xml.버전 백업
+pom.xml.다음
+릴리스.속성
+종속성 감소 pom.xml
+빌드번호.속성
+.mvn/타이밍.속성
+# https://github.com/takari/maven-wrapper#사용법-없는-바이너리-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e 생성 파일
+# 이클립스 코어
+.프로젝트
+# JDT 전용(Eclipse Java 개발 도구)
+.클래스패스
+
+# https://www.toptal.com/developers/gitignore/api/eclipse,java,maven의 끝
